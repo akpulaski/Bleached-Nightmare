@@ -1,0 +1,30 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/character.rpy", line 1: expected statement.
+    mc = Character(name = "[pName]", who_color = "#FFA500")
+       ^
+
+File "game/character.rpy", line 2: expected statement.
+    e = Character(name = "Eliška", who_color = "#800080")
+      ^
+
+File "game/character.rpy", line 3: expected statement.
+    i = Character(name = "Ivo", who_color= "#90EE90")
+      ^
+
+File "game/character.rpy", line 4: expected statement.
+    im = Character(name = "Ivo's Mum", who_color = "#D3D3D3")
+       ^
+
+File "game/character.rpy", line 5: expected statement.
+    id = Character(name = "Ivo's Dad", who_color = "#D3D3D3")
+       ^
+
+File "game/character.rpy", line 6: expected statement.
+    p = Character(name = "[priestName]", who_color = "#5A5A5A")
+      ^
+
+Ren'Py Version: Ren'Py 8.1.1.23060707
+Fri Oct 20 18:31:31 2023
