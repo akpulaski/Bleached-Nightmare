@@ -6,7 +6,7 @@
         $ pName = "Sam"
     "You hear a knock at the door."
     "It goes on for several seconds, but as it stops you hear a familiar voice speaking to you."
-    i "Hello {pName}, are you going to come out and play today."
+    i "Hello [pName], are you going to come out and play today."
     "It’s Ivo, your friend for as long as you can remember."
     mc "Of course, just give me a minute to go and change."
     "Some minutes later as you’re ready to leave your sister stops you."
@@ -41,25 +41,25 @@ label A1: #go out with Ivo and Eliska
     e "Hey! Wait for me!"
     "And so you play with your friends for hours without a care in the word."
     "But as you run through the village’s market you bump into someone."
-    im "Hello there {pName} and Eliška, what are you doing here?"
+    mom "Hello there {pName} and Eliška, what are you doing here?"
     mc "Just playing around, Miss Ivo’s mum."
     i "Hi, mum!"
-    im "Hi, sweetie, how are you doing?"
+    mom "Hi, sweetie, how are you doing?"
     i "Good!"
-    im "Do you need me to buy you anything while I’m in the market?"
+    mom "Do you need me to buy you anything while I’m in the market?"
     i "Candy!"
-    im "Something that isn’t candy?"
+    mom "Something that isn’t candy?"
     i "Non-candycal candy…?"
-    im "What is that you said? Vegetables?"
+    mom "What is that you said? Vegetables?"
     i "No!"
-    im "Okay then, I’ll take the freshest vegetables just for you."
+    mom "Okay then, I’ll take the freshest vegetables just for you."
     #SFX: Kid crying 
     i "Fine..."
     mc "By the way, Miss Ivo’s Mum, me and Eliška are supposed to be home now, so don’t snitch on as, okay?"
-    im "Okay, I won’t tell."
-    im "Eliška, please make sure to take care of them."
+    mom "Okay, I won’t tell."
+    mom "Eliška, please make sure to take care of them."
     e "Already doing that."
-    im "Well, I have to go now, bye."
+    mom "Well, I have to go now, bye."
     i "Bye!"
     "So you continue playing together."
     "Running left, right, up and down the village like there’s no tomorrow."
@@ -99,17 +99,12 @@ label A1: #go out with Ivo and Eliska
             jump A1_2
 
 label A2: # don't go out. 
-    """
-    ...
-    ...
-    ...
-    ...
-    ...
-    ...
-    ...
-    ...
-
-    """
+    "..."
+    "..."
+    "..."
+    "..."
+    "..."
+    "..."
     jump EndIsNeverTheEnd
 
 label A1_1: #Go save him
@@ -450,12 +445,12 @@ label A1_1_4_2_2: #sneak through the other door
     i "Really guys, that would be awesome, thanks!"
     "So you make your way to Ivo’s house."
     "You knock at the door and wait."
-    ip "Hello? Who’s there?"
+    dad "Hello? Who’s there?"
     i "It’s me."
-    ip "Ivo! We were worried sick about you."
+    dad "Ivo! We were worried sick about you."
     i "Sorry, I was playing with my friends and forgot to look at the time."
     e "I’m sorry too, as the oldest I should be more careful."
-    ip "Since your friend took the responsibility I guess I won’t use the belt tonight, son. (I’m such a good father.)"
+    dad "Since your friend took the responsibility I guess I won’t use the belt tonight, son. (I’m such a good father.)"
     "Now come on, your mother made a lot of food and I can’t eat it all alone."
     i "Coming! Bye Eliška, bye [pName]! See you tomorrow!"
     "After that you and your sister go home too, your parents didn’t returned yet so at least you’re lucky."
